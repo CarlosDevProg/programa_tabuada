@@ -18,8 +18,10 @@ public class Main {
 		
 		   for(i=1; i<=10; i++) {
 			  resultado = num * i;
-			    System.out.printf("%d X %d = %d%n", num, i, resultado);
+			    System.out.printf("%d X %d = %d%n", num, i, resultado);    
 			}
+		           System.out.println();
+		           System.out.println("----------Fim do Programa!---------");
 		}
 		catch(InputMismatchException err) {
 				System.out.println("Digite apenas números inteiros!");
